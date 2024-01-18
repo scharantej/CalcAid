@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tutor Request Form</title>
+</head>
+<body>
+<h1>Tutor Request Form</h1>
+<p>Please fill out the form below to request a tutor.</p>
+<form action="/results" method="POST">
+<label for="name">Name:</label>
+<input type="text" name="name" id="name">
+<br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+<br>
+<label for="subject">Subject:</label>
+<input type="text" name="subject" id="subject">
+<br>
+<label for="level">Level:</label>
+<select name="level" id="level">
+<option value="AP Calculus BC">AP Calculus BC</option>
+<option value="AP Calculus AB">AP Calculus AB</option>
+<option value="Algebra 2">Algebra 2</option>
+<option value="Geometry">Geometry</option>
+</select>
+<br>
+<label for="duration">Duration:</label>
+<input type="number" name="duration" id="duration">
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
